@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en zh-hant">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="數位人權, 資料保護, info-activism, 隱私權, 網路自由, 資訊安全">
+    <meta name="author" content="twngo.xyz, jxtsai">
+
+    <title>InfoSec by NGO 推進器 資訊安全與網路自由入門</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="https://twngo.xyz">NGO 推進器</a>
+
+            </div>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">　　　　
+                <li>
+                    <a href="#phone">智慧型手機</a>
+                </li>
+                <li>
+                    <a href="#social_media">社交網站</a>
+                </li>
+                <li>
+                    <a href="#netsurf">安全瀏覧</a>
+                </li>
+                <li>
+                    <a href="#resource">相關資源</a>
+                </li>
+                <li>
+                    <a href="#action">進一步行動</a>
+                </li>
+                <li>
+                    <a href="index.html">回到頁首</a>
+                </li>　
+                <li>
+                    <div class="dropdown">
+                        <button class="navbar-btn dropdown-toggle" type="button" data-toggle="dropdown">各級指南
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">新手入門初階版</a></li>
+                            <li><a href="#">中級指南(coming soon)</a></li>
+                            <li><a href="advanced.html">專家進階級</a></li>
+                            <li><a href="#">威脅模型分析(coming soon)</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/home-bg.jpg'); background-size: cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>數位安全小提醒</h1>
+                        <hr class="small">
+                        <span class="subheading">“Big Brother is WATCHING you” --- George Orwell</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <br>
+                <div class="post-preview">
+                    <h1 class="post-title">
+                        <center>入門初階版 v.1</center>
+                    </h1>
+                    <h2 id="phone" class="post-title">
+                        <img src="img/hashtag.svg" width="5%" height="5%">智慧型手機使用
+                    </h2>
+                    <p>行動電話與智慧型手機雖然為今日的生活帶來許多便利，但我們所忽略的實情是：它們的通訊卻是非常不安全，從手機送出的資訊往往易遭攻擊；而儲存在手機上的資料也同樣脆弱。行動電話輕易地供出了持有者所在位置，手機訊號也容易被竊聽，靠近行動電話的人也可以用便宜的設備監聽來電與讀取訊息(IMSI
+                        Catcher，如 stingray)。不只是你的電信服務商可以攔截你未加密的通話與簡訊，監控你所在的位置，當政府要求電信公司交出客戶資料時，業者也多半會輕易地交上客戶的通訊資料。</p>
+                    <p>智慧手機雖然方便隨時隨地上網，但比起傳統的桌機或筆記型電腦，使用者不容易從手機上查看網站原始碼與 DNS IP 等資訊，因此更容易誤入釣魚網站或染上惡意軟體而使自己的帳號資料被盜駭。此外，許多
+                        app 應用程式開發商過度要求用戶在安裝前同意讓其可取得不必要的用戶手機資料存取權限。故請在決定安裝 app
+                        之前，用三秒鐘想想：此應用程式服務商真有必要取得此權限嗎？是否有其它侵害性更少的替代 app 可選擇？</p>
+                    <p>手機容易染上惡意軟體，遠端用戶可以透過惡意軟體將麥克風或相機打開，以聽取或讀取受害人在使用手機的相關資料。即使手機關機了，這種盜錄的情況仍然會發生。最好將用膠布貼住麥克風或攝影鏡頭；進行敏感會議或交談時，建議用戶關掉手機拔下電池。別忘了，當在公共場所或是在一處你不相信的地方使用手機，會讓你曝露在被偷聽的風險下，或是手機容易遭竊其裏面重要的資料也將不保。
+                    </p>
+
+                    <style>
+                        .embed-container {
+                            position: relative;
+                            padding-bottom: 56.25%;
+                            height: 0;
+                            overflow: hidden;
+                            max-width: 100%;
+                        }
+
+                        .embed-container iframe,
+                        .embed-container object,
+                        .embed-container embed {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    </style>
+                    <div class='embed-container'><iframe src='https://player.vimeo.com/video/105885014' frameborder='0'
+                            webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
+                    <h3 class="post-subtitle"><img src="img/hashtag.svg" width="3%" height="3%"><img
+                            src="img/hashtag.svg" width="3%" height="3%">加密與更新</h3>
+
+                    <p>手機作業系統或軟體有更新通知時立即進行更新，因為這包括重要的安全漏洞修復。如果沒有更新系統，可能會讓你的手機處於脆弱的危險中。</p>
+                    <h3 class="post-subtitle"><img src="img/hashtag.svg" width="3%" height="3%"><img
+                            src="img/hashtag.svg" width="3%" height="3%">關閉地理定位　小心使用無線傳輸</h3>
+                    <p>儘可能只在需要時才啟動定位功能，讓它預設為關閉狀態，以降低自身所在位置被追踪的風險、減少應用程式在後台或是電信業者自遠端進行不必要的個人資料收集，且可大幅節省手機電力。</p>
+                    <p>如果你不知道或無須使用手機上的特別功能或應用程式，就把它們關閉或移除。避免連線到無須密碼的無線網路服務。當不須使用時，確保手機上的通訊管道如紅外線(IrDA), 藍牙與無線網路 WiFi
+                        關閉，只在信任的地點或情況下才使用它們。少用藍牙, 因為它常常相對地容易被偷聽。盡量使用有線線路來傳輸資料。</p>
+                    <h3 class="post-subtitle"><img src="img/hashtag.svg" width="3%" height="3%"><img
+                            src="img/hashtag.svg" width="3%" height="3%">當心元數據</h3>
+                    <p>數位照片與影片常常在用戶自己也不知道的狀況下透露了大量信息。利用手機拍照時往往會嵌入隱藏數據（元數據
+                        meta-data），其揭露了日期、時間和照片的地點、手機類型等等資訊。當我們上傳多媒體檔案時，不僅某些照片和視頻分享網站可能會發布這些元數據信息，政府與企業更是垂涎這些數據，以利其進一步分析利用。最好安裝某些應用程式如
+                        <a href="http://www.exiferaser.com">Exif Eraser](for Android)</a>; <a
+                            href="https://itunes.apple.com/us/app/pixlmet-location-editor-and-metadata-viewer/id980822259?mt=8">PixlMet(for
+                            IOS)</a>，先刪除照片與影片的元數據後再上傳到網路，避免向服務商或不特定對象透露太多個人資料。</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <h2 id="social_media" class="post-title"><img src="img/hashtag.svg" width="5%" height="5%">社交網站使用
+                    </h2>
+                    <p>確保使用安全密碼進入社交網站，最好採取雙重認證的登入設定。如果他人駭入您的帳戶或知道了您的密碼，他們就能通過該社交網站得到您和您朋友的大量信息。建議使用密碼管理軟體（如
+                        KeePassX），除了不忘定期更換密碼外，也避免只用單一密碼來登入不同網站。</p>
+
+                    <p>在社交網站上發表個人動態前先想想：
+                        <ul>
+                            <li>誰可以看到我放在網上的資訊？</li>
+                            <li>誰控制和擁有我放在社交網站上的信息？</li>
+                            <li>我的臉友會把關於我的什麼信息傳給其他人？</li>
+                            <li>我的臉友是否介意我把他們的信息與別人分享？</li>
+                            <li>我信任每個與我有聯繫的人嗎？</li>
+                        </ul>
+
+                        <p>尤其是在分享影片/照片前，要知道：照片和影片視頻容易暴露人們的身份。您發布的任何照片或影片都應得到被拍攝者的授權允許。若您在網路上發布別人的照片，必須清楚地意識到這將露暴了他人的個資，而接下來的後果往往是當事人所無法控制與預測的。所以，在未得到別人同意下，請不要擅自把別人的影片或照片發佈到網路上。
+                        </p>
+                        <h3 class="post-subtitle"><img src="img/hashtag.svg" width="3%" height="3%"><img
+                                src="img/hashtag.svg" width="3%" height="3%">facebook 使用提醒：</h3>
+                        <p>請務必仔細檢查自己的臉書隱私設置，尤其留意這家互聯網巨頭公司的隱私政策一直變動。</p>
+                        <p>「加成好友」意味著您在和另一名用戶建立直接聯繫，且允許他們看到您在臉書上的個人資訊和活動，故最好只加那些您夠信任的朋友。</p>
+                        <p>每次退出臉書時不妨考慮註銷帳戶。這意味著當您不在線時，此帳號會被鎖定，讓別人看不到它。當下次登入臉書時，再重新激活帳號，您所有的設置都會保持不變，也可以避免一直被臉書的追踪器掌握您瀏覽了哪些網站。
+                        </p>
+                        <p><a href="http://dataselfie.it">data　selfie </a>是一個開源的 Chrome
+                            外掛，可幫助用戶了解自己在臉書上的行為動態，並具有強大的數據分析與人格特色演算推測。換言之，它可以幫助你了解 FaceBook
+                            眼中「你」是什麼樣的傢伙，一個連自身都未曾察覺的個人資訊側寫(Personal Profiling)。</p>
+                        <style>
+                            .embed-container {
+                                position: relative;
+                                padding-bottom: 56.25%;
+                                height: 0;
+                                overflow: hidden;
+                                max-width: 100%;
+                            }
+
+                            .embed-container iframe,
+                            .embed-container object,
+                            .embed-container embed {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                            }
+                        </style>
+                        <div class='embed-container'><iframe src='https://player.vimeo.com/video/201178499'
+                                frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <h2 id="netsurf" class="post-title"><img src="img/hashtag.svg" width="5%" height="5%">一般上網瀏覧安全</h2>
+                    <h3 class="post-subtitle"><img src="img/hashtag.svg" width="3%" height="3%"><img
+                            src="img/hashtag.svg" width="3%" height="3%">網路連線加密匿名</h3>
+                    <p>確保網路連線存取可安全瀏覧，因為網路連線服務商(ISP)會進行網路監控與用戶瀏覽記錄收集。如果未使用安全網路連線軟體，不僅是揭露了自己的地點位置和網路瀏覧閱讀內容，ISP
+                        業者也可以用來過濾、監視甚至屏蔽某些網站。安全的網路連線工具，如 VPN 或是 TOR
+                        瀏覽考量了這些情況，提供各種方法來保護網路連線安全，當電腦透過這些安全軟體連上網際網路時，可稍防衛與隱匿電腦與IP地址。</p>
+                    <p>進一步了解利用虛擬私人網路 (VPN)，可參考<a href="https://privacytools.twngo.xyz">網路隱私工具</a>上相關的整理。</p>
+                    <a href="https://privacytools.twngo.xyz"><img src="img/privacytools.png" width="97%"></a>
+                    <h3 class="post-subtitle"><img src="img/hashtag.svg" width="3%" height="3%"><img
+                            src="img/hashtag.svg" width="3%" height="3%">瀏覽器</h3>
+                    <p>安裝 <a href="https://www.eff.org/https everywhere">HTTPS EVERYWHERE</a> 與 <a
+                            href="https://www.eff.org/privacybadger">PRIVACY
+                            BADGER</a>瀏覽器延伸套件,它們可幫助確保用戶訪問網站的安全連線版本(https)，並且用戶可自行控制網站的監測使用狀況。 </p>
+
+                    <h4>以上資料來源</h4>
+                    　　　　　　　　　　　　　　　<ul>
+                        <li><a href="https://secfirst.org">Security First: Umbrella app</a></li>
+                        <li><a href="https://securityinabox.org/en/">Tactical Technology Collective: Security in a
+                                box</a></l>
+                        <li><a href="https://ssd.eff.org/en">Electronic Frontier Foundation: Surveillance
+                                Self-Defense</a></li>
+                        <li><a href="https://www.equalitylabs.org/">Equality Labs</a></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <h2 id="resource" class="post-title"><img src="img/hashtag.svg" width="5%" height="5%">
+                        數位安全資訊中文資源整理
+                    </h2>
+                    <h3 class="post-subtitle"><img src="img/hashtag.svg" width="3%" height="3%"><img
+                            src="img/hashtag.svg" width="3%" height="3%"> Umbrella-app 正體中文網站
+                    </h3>
+                    <img src="img/umbrella.png" width="20%" height="20%" align="left">
+                    <p><a href="https://secfirst.org">Umbrella App</a> 由 Security First
+                        開發維護的智慧手機應用軟體，其提供了從入門到進階的豐富安全資訊。目前已初步完成其內容資訊的中文化初稿，並由 twngo.xyz 先以網頁形式發佈，預計在明年會將中文內容整合入 apk。
+                        　　　　　　　　　　　　　　　　　　　　<ul>
+                            　　　　　　　　　　　　　　　　　　　　<li><a href="https://umbrella.twngo.xyz">Umbrella app 正體中文網站</a></li>
+                            <li><a href="https://to.twngo.xyz/2fY8QNj">Umbrella 上線說明</a></li>
+                            <li><a href="https://github.com/twngo/Umbrella_content">Umbrella 資源庫 @ GitHub</a></li>
+                        </ul>　
+
+                        <h3 class="post-subtitle"><img src="img/hashtag.svg" width="3%" height="3%"><img
+                                src="img/hashtag.svg" width="3%" height="3%">Safeguard Defenders</h3>
+
+                        <p><a href="https://safeguarddefenders.org">Safeguard
+                                defenders</a>，主要關注亞洲地區的人權捍衛者處境，尤其如何對抗集權國家資源投助的網路長城封鎖以及其國安情治系統威脅監控。因該網站受到當局嚴重「關切」，Safe
+                            guard defenders 須不時躲避各式技術攻擊，以維持其網站訊息正常運作。請見 China Change 的介紹（中、英文）：<a
+                                href="https://chinachange.org/2017/09/19/in-search-of-better-digital-protection-for-human-rights-defenders-in-china/">In
+                                Search of Better Digital Protection for Human Rights Defenders In China</a></p>
+                        <h3 class="post-subtitle"><img src="img/hashtag.svg" width="3%" height="3%"><img
+                                src="img/hashtag.svg" width="3%" height="3%">LevelUp 安全訓練員教育社群資源</h3>
+                        <p>較之本站羅列許多以末端用戶為主的數位安全資訊，LevelUp
+                            的定位則是以傳播擴散（數位）安全資訊的教育講師為對象，以訓練員為主導的安全教材交流園地。其內容涉及有效成人的教育訓練討論、心理壓力調適，故建議適合的讀者群為：人權教育工作者、心理諮詢師等。
+                            　　　　　　　　　　　　　　　　<ul>
+                                <li><a href="https://blog.jxtsai.info/2017/09/30/levelup/">LevelUp 中文版說明</a></li>
+                                <li><a href="https://levelup.twngo.xyz/">LevelUp 正體中文網</a></li>
+                                <li><a href="https://github.com/twngo/levelup">LevelUp 資源庫 @ GitHub</a></li>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <h2 id="action" class="post-title"><img src="img/hashtag.svg" width="5%" height="5%">
+                        除了自我保護，你還可以保護別人
+                    </h2>
+                    <h3 class="post-subtitle"><img src="img/hashtag.svg" width="3%" height="3%"><img
+                            src="img/hashtag.svg" width="3%" height="3%">透過人際網絡，分享數位安全資訊
+                    </h3>
+                    <p>不論是線上虛擬平台還是下線真實世界，和朋友家人討論網路的好壞之處，並提出你自己的想法。我們不應把便利的科技視為理所當然，除了理解與感謝許多人打造了今日豐富的數位生活外，也不妨思考自己如何能為促進科技的良善應用，稍盡一點力量。
+                    </p>
+
+                    <h3 class="post-subtitle"><img src="img/hashtag.svg" width="3%" height="3%"><img
+                            src="img/hashtag.svg" width="3%" height="3%">協助重要資訊的在地化翻譯推廣</h3>
+                    <img src="img/l10nlab.png" width="20%" height="20%" align="left">
+                    <p><a href="https://www.localizationlab.org/"> Localization Lab</a>
+                        是一個由全球各地志工組成的網路社群，透過各種語言的翻譯與在地化推廣，促進各種對抗言論審查、保護隱私等網路自由工具的使用。你可以自主地參酌自己能貢獻的時間心力，例如每週1~2小時，持續投入不同開源軟體或資安教材的中文翻譯或內容校對。
+                    </p>
+                    <h3 class="post-subtitle"><img src="img/hashtag.svg" width="3%" height="3%"><img
+                            src="img/hashtag.svg" width="3%" height="3%">支持本站推動資訊人權</h3>
+                    <p>twngo.xyz
+                        是一個稟持駭客反叛精神，不遵守台灣結社法令規定的非營利組織。如果你認同網路科技對人類朝向自由解放的重要，不滿集中化單一獨大的壟斷控制，支持分散自主節點的多元意見呈現交流，手邊又有一點買球賽演唱會門票菸酒零食後找剩的零錢，歡迎自由捐款,可收
+                        <bitcoint:1JNRctowg5ZHy5Es4Qd7VFN8s78kBFYFL8> bitcoin (BTC: 1JNRctowg5ZHy5Es4Qd7VFN8s78kBFYFL8)/
+                            zcash (ZEC: t1dK7bgh7FJCasKgpUbYABbtrBnrfS9C2fw) / 各國現金。</p>
+                    <p>若有其它詢問或建議可來信：　hello@twngo.xyz 　<a href="https://keybase.io/twngoxyz">PGPkey</a> fingerprint: 936A
+                        2F69 270A 8A6D A3C9 4CE6 B218 1C6C E759 3169 ）。</p>
+                </div>
+                <hr>
+                <!-- Footer -->
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                                <ul class="list-inline text-center">
+                                    <li>
+                                        <a href="https://twitter.com/ngonewstw">
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-circle fa-stack-2x"></i>
+                                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://medium.twngo.xyz">
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-circle fa-stack-2x"></i>
+                                                <i class="fa fa-medium fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/twngo">
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-circle fa-stack-2x"></i>
+                                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://publicslack.com/slacks/twngo/invites/new">
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-circle fa-stack-2x"></i>
+                                                <i class="fa fa-slack fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <p class="copyright text-muted">Copyleft &copy; NGO 推進器 2017</p>
+                                <p class="copyright text-muted">created on <a
+                                        href="https://startbootstrap.com/template-overviews/clean-blog/">Clean Blog
+                                    </a>from Start Bootstrap
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+                <!-- jQuery -->
+                <script src="vendor/jquery/jquery.min.js"></script>
+
+                <!-- Bootstrap Core JavaScript -->
+                <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+                <!-- Contact Form JavaScript -->
+                <script src="js/jqBootstrapValidation.js"></script>
+                <script src="js/contact_me.js"></script>
+
+                <!-- Theme JavaScript -->
+                <script src="js/clean-blog.min.js"></script>
+
+
+</body>
+
+</html>

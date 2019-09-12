@@ -1,0 +1,62 @@
+==================================================================
+https://keybase.io/twngoxyz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://twngo.xyz
+  * I am twngoxyz (https://keybase.io/twngoxyz) on keybase.
+  * I have a public key with fingerprint 936A 2F69 270A 8A6D A3C9  4CE6 B218 1C6C E759 3169
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01114a846d7cf2623251624592645d5f47e21aafe23ac75853a2930844002a90056d0a",
+            "fingerprint": "936a2f69270a8a6da3c94ce6b2181c6ce7593169",
+            "host": "keybase.io",
+            "key_id": "b2181c6ce7593169",
+            "kid": "01114a846d7cf2623251624592645d5f47e21aafe23ac75853a2930844002a90056d0a",
+            "uid": "ad252e62e205adbddf5da3ebf1776f19",
+            "username": "twngoxyz"
+        },
+        "service": {
+            "hostname": "twngo.xyz",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1491833627,
+    "expire_in": 157680000,
+    "prev": "d8be4594883c08246056f9c99d0ba1bea70f1238200b340bfe276d3988864900",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUj1rVEEUfYkfxAXBBQuLYDFYhTXM98c2FhEC2wumiMvMm3m7k8T31vfefiUs
+pAymERKs7ewUrcQ/YBGxsrFJShVLQbHSmUXBwtJpLnM559xzD/fR5XPJUvPlteWd
+jxvIL5x8NsndL0cre8AUdgrae2DbzYvbsa6qu9vegjaACCGqJeVWpBnmmGCGOKZM
+YU6ZZRkVDiOtM4eJTgWTjGisCJSUQoi1gpBxCzVogcznPVcOSp/XQVYRrnHGFRZQ
+S82tJqmiqeMGI4lSnjrBFEFcBWK/qCIjmDO6cqu+CL3w6c7t/QP/n30P53LaYoYd
+xw5Dpq2xNmPBszMZEoJnKM4dVq7M9X0X0PU47xWT6S6YtUDojnzqYrBxk78RqxHS
+AoOyqIu02Antfl0Pqnak1dNBxI2d6f5W6Bqf2xBiYIxcWfkiB20UkGntoySiCklC
+OBYt4CYDX7qujwgmuIThxTluFCStNC7kQKW8Q1IoMeVh10ylSlloNDJOC5ghTCSG
+0BAKTchIcEuUlJLTkAyISz3IC9AmwafuBc3K93JdD0sHZo2De+eT5lJy8cJivK6k
+cenKn5Pb6CU/19dur5y+nU32144rPunsf/rx9dvjww+bza0XZ52jzfFC8ubJjevf
+d98/a5yJrfXnraf97NZp5/W7g+ObJ68WDx9e/QU=
+=kQ6e
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/twngoxyz
+
+==================================================================

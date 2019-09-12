@@ -1,0 +1,70 @@
+<style>
+
+.dropdowncontent {
+    display: none;
+    position: relative;
+}
+
+.dropdowncontent a {
+    color: #fb8c00;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdowncontent {
+    display: block;
+}
+
+</style>
+
+<nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" class="brand-logo" href="{{ "/" | relative_url }}"></a>
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+     
+         <ul class="left hide-on-med-and-down">
+            <li><a href="{{ "/" | relative_url }}"><i class="fas fa-home"></i></a></li>
+            <li><a href="https://twitter.com/oktaiwanonline"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+          <ul class="right hide-on-med-and-down" >
+            <li><a href="/about">本站介紹</a></li>
+            <li> <div class="dropdown"><a href="/issues">關注議題</a>
+                      <div class="dropdowncontent">
+                        <a href="/issues/internet">網路足跡</a>
+                        <a href="/issues/finance">財務資訊</a>
+                        <a href="/issues/health">健康資料</a>                      
+                      </div>
+                    </div></li>  
+
+            <li><div class="dropdown"><a href="/resource">資源工具</a>
+                      <div class="dropdowncontent">
+                        <a href="/resource/pdpr">個人資料保護法規</a>
+                        <a href="/resource/rd">盡責資料管理</a>
+                        <a href="/resource/#">something</a>                      
+                      </div>
+                    </div></li>   
+              </li>
+            <li><a href="/join-us">參與支持</a></li>              
+          </ul>
+
+          <ul id="nav-mobile" class="side-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="/about">本站介紹</a></li>
+            <li><a href="/issues">關注議題</a></li>
+                <ol> 
+                   <li><a href="/issues/internet">網路足跡</a></li>
+                   <li><a href="/issues/finance">財務資訊</a></li>
+                   <li><a href="/issues/health">健康資料</a></li></ol>                        
+            <li><a href="/resource">資源工具</a></li>
+                  <ol>
+                   <li><a href="/resource/pdpr">個人資料保護法規</a></li>
+                   <li><a href="/resource/rd">盡責資料管理</a></li>
+                   <li><a href="/resource/#">something</a></li>                     
+                      </ol>
+            <li><a href="/join-us">參與支持</a></li>    
+          </ul>        
+
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+

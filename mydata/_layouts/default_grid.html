@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "zh-tw" }}">
+
+  {% include head_grid.html %}
+
+  <body>
+
+    {% include header.html %}
+
+
+        {{ content }}
+
+    {% include footer.html %}
+      
+    {% include script.html %}
+
+  </body>
+
+
+  <script>
+                    var feed1 = 'https://netpolicy.taipei.io/feed';
+                    $('#feed1').rssfeed(feed1, {
+                        ssl: true,
+                        limit: 6,
+                        showerror: true,
+                        errormsg: '',
+                        tags: true,
+                        date: true,
+                        dateformat: 'spellmonth',
+                        titletag: 'h4',
+                        content: true,
+                        image: true,
+                        snippet: true,
+                        snippetlimit: 120,
+                        linktarget: '_blank'
+                }, function () {
+                    // optional callback function
+                });
+               
+               	 var feed2 = 'https://medium.com/feed/@mydata_taiwan';
+                    $('#feed2').rssfeed(feed2, {
+                        ssl: true,
+                        limit: 3,
+                        showerror: true,
+                        errormsg: '',
+                        tags: true,
+                        image: false,
+                        snippet: true,
+                        snippetlimit: 80,
+                        linktarget: '_blank'
+                }, function () {
+                    // optional callback function
+                });
+                </script>
+</html>
+</html>

@@ -1,0 +1,12 @@
+# Site settings
+title: NGO metrics
+email: hello@twngo.xyz
+description: > # this means to ignore newlines until "baseurl:"
+  非政府非營利組織關鑑表現數據記錄模版與資訊儀表板。Metrics and dashboard templates for Nonprofit Organizations
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+twitter_username: ngonewstw
+github_username:  jxtsai
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,196 @@
+html{
+    width: 100%;
+    height:100%;
+    font-size:30px;
+    text-align: center;
+  }
+
+
+a {
+  text-decoration: none;
+  color: #558951;
+  }
+  
+a:hover {
+   color: darken(#000, 20%);
+  }
+
+.container {
+  width: 95vw;
+  position: relative;
+  padding: 0px 15px 0px 15px;
+  @include breakpoint($xs) {
+    @include container(auto);
+    }
+  @include breakpoint($sm) {
+    @include container(540px);
+  }
+  @include breakpoint($md) {
+    @include container(720px);
+  }
+  @include breakpoint($lg) {
+    @include container(960px);
+  }
+  @include breakpoint($xl) {
+    @include container(1170px);
+  }
+
+}
+
+.signature {
+	font-weight: 100;
+	bottom: 10px;
+    color: $text-color;
+	left: 0;
+	letter-spacing: 4px;
+	font-size: 10px;
+	width: 95vw;
+	text-transform: lowercase;
+    text-decoration: none;
+}
+
+#marco{
+    padding-top: 5em;
+    width: 100%;
+    height: 50%;
+    background: -moz-radial-gradient(center, ellipse cover,  #d3c5a5 1%, #6fa56b 42%, #405b63 69%, #13161e 99%); 
+    background: -webkit-radial-gradient(center, ellipse cover,  #d3c5a5 1%,#6fa56b 42%,#405b63 69%,#13161e 99%);
+background: radial-gradient(ellipse at center,  #d3c5a5 1%,#6fa56b 42%,#405b63 69%,#13161e 99%);
+  display:flex;
+  justify-content:center;
+
+}
+#contenedor{
+     display: inline-block;
+     position: absolute;
+     vertical-align: middle; 
+    -webkit-animation: mover 17s  Ease infinite;
+    -moz-animation: mover 17s  Ease infinite;
+}
+#mesa{
+     display: inline-block;
+     position: relative;
+     width: 70%;
+     max-width: 100%;
+     bottom: 0; 
+     vertical-align: bottom; 
+}
+@-webkit-keyframes mover {
+    0%   {left:0em; top:-3em;}
+    25%  {left:19em; top:-5em;}
+    60%  {left:2em; top:0em;}
+    75%  {left:8em; top:-6em;}
+    100% {left:0em; top:-3em;}
+}
+@-moz-keyframes mover {
+    0%   {left:0em; top:-3em;}
+    25%  {left:19em; top:-5em;}
+    60%  {left:2em; top:0em;}
+    75%  {left:8em; top:-6em;}
+    100% {left:0em; top:-3em;}
+}
+
+#cuerpo{
+    -webkit-animation: girar2 3s  Ease infinite;
+    -moz-animation: girar2 3s  Ease infinite;
+}
+ 
+#pataI1, #pataI2, #pataI3{
+    -webkit-animation: girar 1s  Ease infinite;
+    -moz-animation: girar 1s  Ease infinite;
+    } 
+        @-webkit-keyframes girar{
+        0%{
+            transform: rotate(2deg);
+        }
+       
+        50%{
+            transform: rotate(4deg);
+        }
+        100%{
+        	transform: rotate(2deg);
+        }
+    }
+     @-moz-keyframes girar{
+        0%{
+            transform: rotate(2deg);
+        }
+       
+        50%{
+            transform: rotate(4deg);
+        }
+        100%{
+        	transform: rotate(2deg);
+        }
+    }
+ #pataI2{
+    -webkit-animation: girar2 1.5s  Ease infinite;
+    -moz-animation: girar2 1.5s  Ease infinite;
+    animation-delay: 0.5s;
+    }
+      @-webkit-keyframes girar2{
+        0%{
+            transform: rotate(-1.5deg);
+        }
+        50%{
+            transform: rotate(2deg);
+        }
+        100%{
+            transform: rotate(-2deg);
+        }
+    }
+     @-moz-keyframes girar2{
+        0%{
+            transform: rotate(-1.5deg);
+        }
+        50%{
+            transform: rotate(2deg);
+        }
+        100%{
+            transform: rotate(-2deg);
+        }
+    }
+#pataI3{
+    -webkit-animation: girar 2s  Ease infinite;
+    -moz-animation: girar 2s  Ease infinite;
+    animation-delay: 0.5s;
+    }
+#pataD1, #pataD2, #pataD3{
+    -webkit-animation: girar 1s  Ease infinite;
+    -moz-animation: girar 1s  Ease infinite;
+    } 
+        @-webkit-keyframes girar{
+        0%{
+            transform: rotate(-2deg);
+        }
+        50%{
+            transform: rotate(3.5deg);
+        }
+        100%{
+        	transform: rotate(-2deg);
+        }
+    }
+      @-moz-keyframes girar{
+        0%{
+            transform: rotate(-2deg);
+        }
+        50%{
+            transform: rotate(3.5deg);
+        }
+        100%{
+        	transform: rotate(-2deg);
+        }
+    }
+ #pataD2{
+    -webkit-animation: girar 1.5s  Ease infinite;
+    animation-delay: 0.5s;
+    }
+ #pataD3{
+    -webkit-animation: girar 1.8s  Ease infinite;
+    animation-delay: 0.5s;
+    }
+ #pataD1{
+    -webkit-animation: girar 1.2s  Ease infinite;
+    animation-delay: 0.8s;
+    }
+

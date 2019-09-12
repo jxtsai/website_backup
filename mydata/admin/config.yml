@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: twngo/mydata-cms
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+       
+
+publish_mode: editorial_workflow
+
+media_folder: "img/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "_site/img/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+
+collections:
+  - name: post
+    label: Post
+    folder: _posts
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {name: title, label: Title}
+      - {name: author, label: author}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "categories", name: "categories"}
+      - {name: body, label: Body, widget: markdown}

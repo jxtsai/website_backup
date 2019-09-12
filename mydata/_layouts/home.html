@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text"><img src="https://mydata.org/wp-content/uploads/sites/5/2017/08/Copy-of-MyData-logo.png" width = "15%", height="15%">{{ site.title }}</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">{{ content }}</h5>
+      </div>
+        
+      <div class="row center">
+        <a href="/declaration"><img src="https://i.imgur.com/tE5KyaK.png"></a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">near_me</i></h2>
+            <h5 class="center">落實個資高標格規</h5>
+
+            <p class="light">在瞬息變化的數位年代裏，我們不願自限於國內立法品質下限，畢竟那只是最最基本的要求，更何況法令與現實之間往往存在著讓人失望的落差。MyData 冀望透由更多創見發響與案例分享，追求個資保護與利用最高標準的提倡與實踐。</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">person</i></h2>
+            <h5 class="center">強化權利主體動能</h5>
+
+            <p class="light">過去台灣，可辨識身份的個人資料，被國家高度集中化地收集管理；而現在除了公家機關，個資則益發流動於不同的商業部門與私人企業。當事人對自身資料的掌控大幅被削弱，個資如何被利用，是否將對當事人會造成未預期的傷害或歧視待遇，無人可斷言。MyData 主張確保當事人對自身個資的充份知情、自由自主的決定權利。</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group_add</i></h2>
+            <h5 class="center">促進多方對話合作</h5>
+
+            <p class="light">個資課題不僅衝擊著每一位個資主體者，也連動著各方營運者的業務操作與數位基礎設施的發展，它需要廣納各方利害關係者的經驗與意見，以實現個資當事人的最佳利益和全體社會的最大福祉。MyData 承諾在前二項原則下，開誠佈公地與其它部門合作。</p>
+          </div>
+        </div>
+      </div>
+     <div class="row center">
+        <a href="https://medium.com/@mydata_taiwan" id="download-button" class="btn-large waves-effect waves-light orange"><i class="fab fa-medium-m"></i>&nbsp&nbsp MyData Taiwan </a>
+      </div>
+      <br><br>
+    <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="72088/"></script> <!-- end feedwind code -->
+    </div>
+      
+    </div>
+    <div style="background: #ddd">
+    <div class="container last-post">
+    <section>
+        <h5>最新消息</h5>
+        <ul class="collection">
+        {% for post in site.posts %}
+        <li class="collection-item avatar">
+          {% assign date_format = site.minima.date_format | default: "%m/%d" %}
+          <div class="date-post">{{ post.date | date: date_format }}</div>
+          <span class="title"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
+          <p>
+             {{ post.content | truncatewords: 10 }}
+          </p>
+          <a href="{{ post.url | relative_url }}" class="secondary-content"><i class="material-icons">navigate_next</i></a>
+        </li>
+        {% endfor %}
+        </ul>  
+    </section>
+    </div>
+</div>
+
+  </div>	
